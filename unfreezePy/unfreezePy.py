@@ -54,8 +54,6 @@ def run():
 
 
 if __name__ == '__main__':
-    # test
-    sys.argv.extend(["bradypod-web"])
     try:
         run()
     except KeyboardInterrupt:
